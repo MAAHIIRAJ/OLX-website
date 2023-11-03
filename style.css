@@ -1,0 +1,288 @@
+*{
+  margin: 0%;
+padding: 0%;
+font-family: sans-serif;
+  }
+
+.navbar{
+  border: 2px solid silver;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 30px;
+  /* position: fixed; */
+background-color: rgb(236, 232, 232);
+  
+}
+.navbar img{
+margin-left: 20px;
+border-radius: 10px;
+} 
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+  
+  font-size: small;
+}
+.navbar a:hover{
+  color: blue;
+}
+
+.containar{
+ /* border: 2px solid rgb(119, 128, 0); */
+ width: 100%;
+ height: 80px;
+ padding: 10px 10px 10px;
+ display: flex;
+gap: 30px; 
+top: 70px;
+justify-content: center;
+ position: static;
+}
+
+.logo{
+  /* border: 2px solid brown; */
+  width: 90px;
+  height: 60px;
+}
+.logo img{
+  width: 100px;
+  height: 60px;
+}
+
+.section{
+  border: 2px solid black;
+  width: 270px;
+  height: 50px;
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+  min-width: 260px;
+  /* height: 93px; */
+  
+}
+
+.select-box{
+  position: relative;
+  min-width: 270px;
+  outline: none;
+}
+
+.search{
+  border: 2px solid black;
+  background-color: rgb(15, 24, 21);
+  width: 590px;
+  height: 50px;
+  position: sticky;
+}
+input{
+  width: 530px;
+  height: 50px;
+}
+
+.log{
+  /* border: 2px solid red; */
+  width: 100px;
+  height: 50px;
+  color: black;
+  font-size: larger;
+  margin-top: 9px;
+}
+.log :hover{
+  outline: invert;
+  transform: scale(1.1);
+}
+.sell{
+  border: 2px solid;
+  width: 80px;
+  border-radius: 20px;
+  border-top: 5px green solid;
+  border-bottom: 5px skyblue solid;
+  border-left: skyblue solid 5px;
+  border-right: 5px solid gold;
+  height: 50px;
+  }
+.sell p{
+font-weight: bolder;
+font-size: x-large;
+margin-top: 9px;
+}
+
+.headings{
+  border: 3px solid rgb(247, 245, 245);
+  width: 100%;
+  height: 40px;
+  display: flex;
+margin-left: 20px;
+}
+.headings ul{
+  /* list-style: none; */
+  gap: 30px; 
+
+}
+.headings li{
+  display: inline;
+  padding: 10px;
+
+}
+.headings a{
+  color: black;
+  /* text-decoration: none; */
+}
+
+.headings li:hover{
+color: blueviolet;
+}
+
+.add{
+  /* border: 2px solid green; */
+  width: 80%;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  height: 180px;
+}
+
+.head{
+  /* border: 2px solid  darkcyan; */
+  width: 90%;
+  height: 50px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.box{
+  /* border: 2px solid  darkcyan; */
+  width: 90%;
+  height: 320px;
+  display: flex;
+  margin-left: 30px; 
+  flex-wrap: wrap; 
+}
+.box img{
+  width:100px;
+  height: 100px;
+}
+.box1{
+/* border: 2px solid salmon; */
+width: 120px;
+height: 120px;
+padding: 10px;
+}
+.box1 span{
+  font-weight: bolder;
+  margin-left: 15px;
+  text-transform: capitalize;
+
+}
+/* cards */
+.card-containar{
+  /* border: 2px solid teal; */
+  width: 97%;
+  margin-left: 20px;
+  height: 1800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+H1{
+  text-align: center;
+}
+.card{
+  border: 2px solid black;
+  width: 400px;
+  height: 380px;
+  border-radius: 10px;
+  
+}
+.pic{
+  border: 2px solid navy;
+  width: 400;
+  height: 200px;
+}
+
+.pic img{
+  background-size: cover;
+  width: 397px;
+  height: 200px;
+}
+.card h3,h4,p{
+  text-align: center;
+  margin-top: 10px;
+}
+.card button{
+ padding: 10px;
+ margin-left: 40%;
+ margin-top: 20px; 
+ border-radius: 20px;
+
+}
+.card button:hover{
+  color: white;
+  background-color: blue;
+  }
+
+.card-containar :hover{
+  background-color: rgb(15, 63, 47);
+  color: white;
+}
+
+.foot-containar{
+  /* border: 2px solid rgb(140, 240, 223); */
+  width: 97%;
+  margin-left: 20px;
+  height: 300px;
+  display: flex;
+  background-color: rgb(250, 245, 245);
+
+}
+.foot{
+  /* border: 2px solid gold; */
+  height: 210px;
+  width: 220px;
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+
+.foot ul{
+}
+.foot li{
+  list-style: none;
+  margin-top: 10px;
+}
+.foot a{
+  color: black;
+  text-decoration: none;
+  gap: 20px;
+}
+.foot li :hover{
+  color: lightgray;
+}
+.foot img{
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;
+}
+@media screen and(min-width: 1px) (max-width: 300px) {
+  .foot-containar,.head,.headings,.card-containar,.containar,.navbar,.section:{
+    display: flex;
+  width: 100%;
+  }
+  
+}
+@media screen and(min-width: 300px) (max-width: 600px) {
+  .foot-containar,.head,.headings,.card-containar,.containar,.navbar,.section:{
+    display: flex;
+  width: 100%;
+  }
+  
+}
+@media screen and(min-width: 60px) (max-width: 1200px) {
+  .foot-containar,.head,.headings,.card-containar,.containar,.navbar,.section:{
+    display: flex;
+  width: 100%;
+  }
+  
+}
